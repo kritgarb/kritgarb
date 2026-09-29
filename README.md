@@ -8,7 +8,7 @@
 ██████╔╝███████╗██║ ╚████║╚█████╔╝██║  ██║██║ ╚═╝ ██║██║██║ ╚████║
 ╚═════╝ ╚══════╝╚═╝  ╚═══╝ ╚════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝
 
-benjamin v. santos             ceo @ domus, bendev  /  cto @ mible
+full stack tech leader         ceo @ domus, bendev  /  cto @ mible
 ──────────────────────────────────────────────────────────────────
 </pre>
 
@@ -19,9 +19,6 @@ kritgarb@github:~$ whoami
 
 ┌─[ whoami ]─────────────────────────────────────────────────────┐
 │                                                                │
-│  name        Benjamin V. Santos                                │
-│  role        Full Stack Tech Leader                            │
-│                                                                │
 │  now         CEO               @ Domus                         │
 │              CEO               @ Bendev Solutions              │
 │              CTO               @ Mible                         │
@@ -30,6 +27,7 @@ kritgarb@github:~$ whoami
 │  education   Computer Science       @ Uninassau                │
 │              Web Full Stack         @ Kenzie Academy           │
 │  founded     BUGS Academic League (2024)                       │
+│  leads       Ratos de Hackathon (community)                    │
 │                                                                │
 └────────────────────────────────────────────────────────────────┘
 </pre>
@@ -38,9 +36,10 @@ kritgarb@github:~$ whoami
 kritgarb@github:~$ cat achievements.log
 
 [2025]     AgroGameJam Sebrae ............................. WINNER
-[2023]     NASA Space Apps Challenge .............. GLOBAL NOMINEE
 [2023-25]  NASA Space Apps Challenge ..... GALACTIC PROBLEM SOLVER
+[2024]     aTip Autism Tech .................... HONORABLE MENTION
 [2024]     Meta Accredited ................. WHATSAPP BUSINESS API
+[2023]     NASA Space Apps Challenge .............. GLOBAL NOMINEE
 [2023]     aTip Autism Tech ............................ 3RD PLACE
 </pre>
 
@@ -48,15 +47,24 @@ kritgarb@github:~$ cat achievements.log
 kritgarb@github:~$ tree projects/
 
 projects/
+├── <a href="https://sapis.eco.br/">sapis/</a>                platform for SAPIS & ELAPIS, a seminar on
+│                         protected areas and social inclusion (UnB)
+│                         [ next.js  react ]
+│
+├── <a href="https://toolbox.otca.org/">otca-toolbox/</a>         water resource management toolbox for the
+│                         Amazon, built for OTCA
+│                         [ vue.js  node.js  docker  postgresql ]
+│
+├── equestrian-erp/       ERP for equestrian centers
+│                         [ vue.js  node.js  docker  github-actions  postgresql ]
+│
+├── law-firm-suite/       case management system for law firms
+│
+├── imaging-reports/      reporting system for medical imaging exams
+│
 ├── exomapper/            characterizable exoplanets for NASA's Habitable
 │                         Worlds Observatory
 │                         [ python  flask  javascript  plotly.js  nasa-api ]
-│
-├── otca-water/           water resource management toolbox for the Amazon
-│                         [ vue.js  node.js  docker  postgresql ]
-│
-├── equestrian-complex/   full management system for an equestrian complex
-│                         [ vue.js  node.js  docker  github-actions  postgresql ]
 │
 └── bee-valley/           educational game
                           [ gdscript  godot ]
@@ -66,7 +74,7 @@ projects/
 kritgarb@github:~$ stack --list
 
 languages    │  typescript  javascript  python  java  c#  dart  ruby
-frontend     │  vue.js  react  html5  css3
+frontend     │  next.js  react  vue.js  html5  css3
 backend      │  node.js
 data         │  postgresql  mysql  mongodb  firebase  sql-server
 devops       │  docker  gitlab-ci  git  github  vercel
